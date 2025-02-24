@@ -24,9 +24,8 @@ export default async function searchNodePackages () {
         const packageList = data.objects.map((pkg: any) => ({
           label: pkg.package.name,
           description: pkg.package.description || "No description available",
-          detail: `Version: ${pkg.package.version} | Author: ${
-            pkg.package.publisher.username || "Unknown"
-          }`,
+          Version: `Version: ${pkg.package.version}`,
+          Author: `Author: ${pkg.package.publisher.username || "Unknown"}`,
         }));
 		console.log(packageList,"pklist");
         const selectedPackage = await vscode.window.showQuickPick(packageList, {
