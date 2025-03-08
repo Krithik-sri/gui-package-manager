@@ -1,6 +1,5 @@
 # GUI Package Manager for VSCode
 
-![GUI Package Manager Banner]
 
 ## 📌 Overview
 The **GUI Package Manager** is a Visual Studio Code extension that provides an intuitive graphical interface for managing installed npm packages. Inspired by JetBrains IDEs but designed to be more streamlined and accessible, this extension makes package management straightforward and efficient.
